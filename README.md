@@ -1,89 +1,53 @@
-<div align="center">
+```
+SLAVA(1)                      General Commands Manual                      SLAVA(1)
+```
 
-# hey, i'm slava 👋
+### NAME
 
-<a href="https://kostslava.tech">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=7C5CFF&center=true&vCenter=true&width=520&lines=co-founder+%26+tech+lead+%40+pontune;organizer+of+larphacks+%F0%9F%8E%AA;5x+hackathon+winner+%F0%9F%8F%86;the+larp+never+stops" alt="typing intro" />
-</a>
+**slava** — builds things, ships them, occasionally runs a hackathon
 
-<br>
+### SYNOPSIS
 
-[![site](https://img.shields.io/badge/kostslava.tech-111?style=for-the-badge&logo=googlechrome&logoColor=white)](https://kostslava.tech)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/slava-kostrubin/)
-[![email](https://img.shields.io/badge/email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:slava@larphacks.ca)
+```
+slava [--cofound pontune] [--organize larphacks] [--hackathon N] [--no-sleep]
+```
 
-</div>
+### DESCRIPTION
 
----
+17, at hodan nalayeh ss, and on the exec of the school's cs / robotics club. co-founder and tech lead at [pontune](https://pontune.app). won 5 hackathons. most of the other four were forgettable, but the latest one wasn't: 2nd at communihacks with [commutr](https://github.com/kostslava/commutr).
 
-> [!IMPORTANT]
-> **🙏 looking for an internship!** if you've got a spot for a 17yo who ships fast and breaks things (on purpose), [hit me up pls](mailto:slava@larphacks.ca)
+the rest of the time it's esp32 boards, browser extensions for problems only i have, and side projects that get way out of hand.
 
-### ~/about
+### OPTIONS
 
-- 🎓 17, student @ hodan nalayeh ss, exec of the school's cs / robotics club
-- 🚀 co-founder & tech lead @ **[pontune](https://pontune.app)**
-- 🎪 ran **[larphacks](https://www.larphacks.ca)**, my first hackathon as an organizer
-- 🏆 won 5 hackathons, most recently 🥈 **2nd @ communihacks** with [commutr](https://github.com/kostslava/commutr)
-- 🔧 when i'm not doing that, i'm writing esp32 code or building extensions nobody asked for
+**`--cofound`** [pontune](https://pontune.app)
+&nbsp;&nbsp;&nbsp;&nbsp;hands-on lessons in code, math, physics and hardware. you write code in the browser and watch it run, and when you get stuck there's an ai tutor called clanka. the code runner underneath is [pontune-sandbox](https://github.com/kostslava/pontune-sandbox).
 
-### ~/stuff i've built
+**`--hackathon`** [commutr](https://github.com/kostslava/commutr) &nbsp;·&nbsp; 2nd place, communihacks
+&nbsp;&nbsp;&nbsp;&nbsp;walk, bike or take transit and you earn points, then spend them on rewards. muta, the mascot, takes voice commands and drives the app for you. react, hono, gemini, elevenlabs. [live demo](https://commutr-psi.vercel.app).
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🎓 <a href="https://pontune.app">pontune</a></h4>
-      interactive learning platform: hands-on lessons in coding, math, physics & hardware, a browser code editor with live preview, and <b>clanka</b>, an ai tutor.<br><br>
-      <sub>also: <a href="https://github.com/kostslava/pontune-sandbox">pontune-sandbox</a>, a self-hosted code runner built on piston</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🚲 <a href="https://github.com/kostslava/commutr">commutr</a> <img src="https://img.shields.io/badge/🥈_communihacks-C0C0C0?style=flat-square" alt="2nd place"></h4>
-      your commute pays you back. earn points for walking, biking & taking transit, then spend them on rewards. it also has <b>muta</b>, a voice mascot that can drive the app for you.<br><br>
-      <sub>react · hono · gemini · elevenlabs · <a href="https://commutr-psi.vercel.app">try it live →</a></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🧠 <a href="https://quizzy.click">quizzy</a></h4>
-      ai chrome extension that sits next to live quiz games (kahoot, blooket, popsauce & more) and suggests answers. it has a hint mode, an auto mode, and two speeds.<br><br>
-      <sub>closed source · <a href="https://quizzy.click">quizzy.click →</a></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🎪 <a href="https://www.larphacks.ca">larphacks</a></h4>
-      the hackathon i organized: <b>400+ applicants, 150+ hackers</b>. less of a coding project, more of me running around with a clipboard.<br><br>
-      <sub><a href="https://www.larphacks.ca">larphacks.ca →</a></sub>
-    </td>
-  </tr>
-</table>
+**`--extension`** [quizzy](https://quizzy.click)
+&nbsp;&nbsp;&nbsp;&nbsp;a chrome extension that sits next to kahoot, blooket and popsauce and suggests answers. it can hint or play on its own. closed source.
 
-<details>
-<summary><b>more side quests 👀</b></summary>
-<br>
+**`--organize`** [larphacks](https://www.larphacks.ca)
+&nbsp;&nbsp;&nbsp;&nbsp;my hackathon. 400+ applied and 150+ showed up. very little code went into it, but a lot of spreadsheets did.
 
-| project | what it is |
-|---|---|
-| [arterial](https://github.com/kostslava/open-skylines) | 3d city builder in the browser (three.js) |
-| [smartshelf](https://github.com/kostslava/smartshelf-monorepo) | web app + arduino vision node + raspberry pi identity node |
-| [failsafe](https://github.com/kostslava/failsafe-system) | failure detection for 3d printers, from one printer to a whole print farm |
-| [stockrock](https://github.com/kostslava/stockrock) | trading bot that picks stocks with timesfm. has a `--spam` mode that tries to lose as much money as possible |
-| [esp32-mini-roulette](https://github.com/kostslava/esp32-mini-roulette) | tiny roulette game on an esp32-c3 with an oled and a rotary encoder |
-| [curfew](https://github.com/kostslava/curfew) | youtube time limits for a browser, with a parent page |
+### SEE ALSO
 
-</details>
+[arterial(1)](https://github.com/kostslava/open-skylines) — a city builder in three.js that runs in the browser
+[smartshelf(1)](https://github.com/kostslava/smartshelf-monorepo) — an arduino vision node and a raspberry pi talking to a web app
+[failsafe(1)](https://github.com/kostslava/failsafe-system) — catches 3d prints going wrong before they turn into spaghetti
+[stockrock(1)](https://github.com/kostslava/stockrock) — a timesfm trading bot. `--spam` tries to lose as much money as possible
+[esp32-mini-roulette(1)](https://github.com/kostslava/esp32-mini-roulette) — roulette on an oled the size of a thumbnail
 
-### ~/stack
+### BUGS
 
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,python,cpp,react,nodejs,vite,threejs,sqlite,arduino,raspberrypi,vercel,git&perline=13" alt="stack" />
-</p>
+no internship yet. if you have a fix, send it to [slava@larphacks.ca](mailto:slava@larphacks.ca).
 
-### ~/stats
+### AUTHOR
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kostslava&show_icons=true&hide_border=true&theme=tokyonight&count_private=true" alt="github stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kostslava&layout=compact&hide_border=true&theme=tokyonight&langs_count=6" alt="top languages" />
-</div>
+[kostslava.tech](https://kostslava.tech) &nbsp;·&nbsp; [linkedin](https://www.linkedin.com/in/slava-kostrubin/)
 
-<div align="center">
-<sub>the larp never stops.</sub>
-</div>
+```
+larphacks                          the larp never stops                    SLAVA(1)
+```
